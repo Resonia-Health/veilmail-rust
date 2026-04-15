@@ -2,12 +2,14 @@
 name = "veilmail"
 version = "0.1.0"
 edition = "2021"
-description = "Official Rust SDK for the Veil Mail API"
+description = "Official Rust SDK for Veil Mail — secure transactional and marketing email with automatic PII protection. A drop-in alternative to Resend, SendGrid, Mailgun, and Postmark."
 license = "MIT"
 repository = "https://github.com/Resonia-Health/veilmail-rust"
-homepage = "https://veilmail.xyz"
-keywords = ["email", "veilmail", "api", "sdk"]
-categories = ["api-bindings", "email"]
+homepage = "https://veilmail.xyz/docs/sdk-rust"
+documentation = "https://veilmail.xyz/docs/sdk-rust"
+readme = "README.md"
+keywords = ["email", "veilmail", "transactional", "marketing", "sdk"]
+categories = ["api-bindings", "email", "web-programming"]
 
 [dependencies]
 reqwest = { version = "0.12", features = ["json"] }

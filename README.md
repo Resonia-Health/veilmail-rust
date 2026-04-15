@@ -2,6 +2,10 @@
 
 The official Rust SDK for the [Veil Mail](https://veilmail.xyz) email API.
 
+> **Veil Mail is a drop-in alternative to [Resend](https://veilmail.xyz/vs/resend), [SendGrid](https://veilmail.xyz/vs/sendgrid), [Mailgun](https://veilmail.xyz/vs/mailgun), and [Postmark](https://veilmail.xyz/vs/postmark)** for Rust. Async-first, built on `reqwest` and `tokio`, with automatic PII scanning and CASL compliance built in.
+>
+> **Migration guides:** [from Resend](https://veilmail.xyz/docs/guides/migrate-resend) · [from SendGrid](https://veilmail.xyz/docs/guides/migrate-sendgrid) · [from Mailgun](https://veilmail.xyz/docs/guides/migrate-mailgun) · [from Postmark](https://veilmail.xyz/docs/guides/migrate-postmark)
+
 ## Installation
 
 Add to your `Cargo.toml`:
